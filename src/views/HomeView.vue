@@ -1,9 +1,7 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+console.log('Hello World')
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <main></main>
 </template>
