@@ -5,7 +5,7 @@ import IconTwitter from './icons/IconTwitter.vue'
 </script>
 
 <template>
-  <header class="border border-red-500 flex justify-between items-center p-5">
+  <header class=" flex justify-between items-center py-5">
     <div>
       <p class="m-0 text-xl">Maria GEM</p>
     </div>
