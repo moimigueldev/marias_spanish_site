@@ -24,8 +24,8 @@ import { RouterLink } from 'vue-router'
         </p>
 
         <router-link
-          to="/signup"
-          class="border border-orange-500 px-2 py-3 text-md font-extralight text-orange-500 transition-colors duration-300 hover:bg-orange-500 hover:text-white"
+          to="#"
+          class="border border-orange-500 px-2 py-3 text-lg font-extralight text-orange-500 transition-colors duration-300 hover:bg-orange-500 hover:text-white"
         >
           Sign Up
         </router-link>
@@ -33,10 +33,9 @@ import { RouterLink } from 'vue-router'
       <div class="flex items-center justify-between h-1/4">
         <div>
           <p class="font-bold text-lg mb-5">Location</p>
-          <p class="font-extralight text-sm">123 Demo Street</p>
-          <p class="font-extralight text-sm">New York, NY 12345</p>
+          <p class="font-extralight text-sm">Virtual / Online</p>
         </div>
-        <div>
+        <div class="pr-10">
           <p class="font-bold text-lg mb-5">Contact</p>
           <p class="font-extralight text-sm">example@email.com</p>
           <p class="font-extralight text-sm">(555) 555-5555</p>

@@ -2,6 +2,7 @@
 import { RouterView } from 'vue-router'
 import TheHeader from './components/TheHeader.vue'
 import TheIntro from './components/TheIntro.vue'
+import InfoCards from './components/InfoCards.vue'
 </script>
 
 <template>
@@ -16,9 +17,10 @@ import TheIntro from './components/TheIntro.vue'
   <!--   </div> -->
   <!-- </header> -->
 
-  <div class="mx-10">
-    <TheHeader class="mb-10" />
+  <div class="space-y-10 px-20 pb-30">
+    <TheHeader />
     <TheIntro />
+    <InfoCards />
 
     <RouterView />
   </div>
