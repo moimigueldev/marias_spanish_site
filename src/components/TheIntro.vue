@@ -8,24 +8,22 @@ import { RouterLink } from 'vue-router'
     <div class="w-full lg:w-2/3">
       <!-- <img -->
       <!--   src="https://images.unsplash.com/photo-1498603536246-15572faa67a6?q=80&w=3500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" -->
-      <!--   alt="Intro Image" class="w-full h-[800px] object-cover" /> -->
+      <!--   alt="Intro Image" class="w-full h-[600px] object-cover" /> -->
 
       <img
         src="https://images.unsplash.com/photo-1636573533532-fdf7c44af2d5?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        alt="Intro Image"
-        class="w-full h-[300px] sm:h-[600px] object-cover rounded shadow-md"
-      />
+        alt="Intro Image" class="w-full h-[300px] sm:h-[600px] object-cover rounded shadow-md" />
+
+      <!-- <img -->
+      <!--   src="https://images.unsplash.com/photo-1562215589-b6d0ed3cfec8?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" -->
+      <!--   alt="Intro Image" class="w-full h-[600px] object-cover" /> -->
+
+      <!-- <img -->
+      <!--   src="https://images.unsplash.com/photo-1532618261731-e3346f1705bc?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" -->
+      <!--   alt="Intro Image" class="w-full h-[600px] object-cover" /> -->
+      <!-- </div> -->
+
     </div>
-
-    <!-- <img -->
-    <!--   src="https://images.unsplash.com/photo-1562215589-b6d0ed3cfec8?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" -->
-    <!--   alt="Intro Image" class="w-full h-[600px] object-cover" /> -->
-
-    <!-- <img -->
-    <!--   src="https://images.unsplash.com/photo-1532618261731-e3346f1705bc?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" -->
-    <!--   alt="Intro Image" class="w-full h-[600px] object-cover" /> -->
-    <!-- </div> -->
-
     <!-- Right Section -->
     <div class="lg:w-1/3 w-full">
       <div class="space-y-10 md:space-y-20 h-3/4">
@@ -36,10 +34,8 @@ import { RouterLink } from 'vue-router'
           harum, rerum possimus ducimus accusamus alias minus! Voluptatum, incidunt.
         </p>
 
-        <router-link
-          to="#"
-          class="border rounded border-orange-500 px-10 py-3 text-2xl text-orange-500 transition-colors duration-300 hover:bg-orange-500 hover:text-white"
-        >
+        <router-link to="#"
+          class="border rounded border-orange-500 px-10 py-3 text-2xl text-orange-500 transition-colors duration-300 hover:bg-orange-500 hover:text-white">
           Sign Up
         </router-link>
       </div>
