@@ -1,6 +1,9 @@
 <template>
-  <div id="infoCards" class="w-full flex justify-between items-center gap-x-5">
-    <div class="max-w-sm p-6 bg-orange-200 border border-gray-200 rounded-lg shadow-md">
+  <div
+    id="infoCards"
+    class="w-full flex flex-wrap lg:flex-nowrap justify-center lg:justify-between items-center gap-y-5 gap-x-5"
+  >
+    <div class="max-w-sm p-6 bg-orange-300 border border-gray-200 rounded-lg shadow-md">
       <a href="#">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
           Noteworthy technology acquisitions 2021
@@ -12,7 +15,7 @@
       </p>
     </div>
 
-    <div class="max-w-sm p-6 bg-blue-200 border border-gray-200 rounded-lg shadow-md">
+    <div class="max-w-sm p-6 bg-blue-300 border border-gray-200 rounded-lg shadow-md">
       <a href="#">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
           Noteworthy technology acquisitions 2021
@@ -24,7 +27,7 @@
       </p>
     </div>
 
-    <div class="max-w-sm p-6 bg-yellow-200 border border-gray-200 rounded-lg shadow-md">
+    <div class="max-w-sm p-6 bg-yellow-300 border border-gray-200 rounded-lg shadow-md">
       <a href="#">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
           Noteworthy technology acquisitions 2021
@@ -36,7 +39,7 @@
       </p>
     </div>
 
-    <div class="max-w-sm p-6 bg-green-200 border border-gray-200 rounded-lg shadow-md">
+    <div class="max-w-sm p-6 bg-red-300 border border-gray-200 rounded-lg shadow-md">
       <a href="#">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
           Noteworthy technology acquisitions 2021

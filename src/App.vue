@@ -17,7 +17,7 @@ import InfoCards from './components/InfoCards.vue'
   <!--   </div> -->
   <!-- </header> -->
 
-  <div class="space-y-10 px-20 pb-30">
+  <div class="space-y-10 md:px-10 lg:px-20 pb-30">
     <TheHeader />
     <TheIntro />
     <InfoCards />
