@@ -1,0 +1,47 @@
+<script setup>
+import { RouterLink } from 'vue-router'
+</script>
+
+<template>
+  <section id="theIntro" class="flex gap-x-10 justify-around">
+    <!-- Left Section -->
+    <div class="w-2/3">
+      <img
+        src="https://images.unsplash.com/photo-1498603536246-15572faa67a6?q=80&w=3500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Intro Image"
+        class="w-full h-[800px] object-cover"
+      />
+    </div>
+
+    <!-- Right Section -->
+    <div class="w-1/3">
+      <div class="space-y-20 h-3/4">
+        <h1 class="text-4xl font-bold">Spanish Tutoring</h1>
+        <p class="font-light">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A similique doloribus odit
+          blanditiis asperiores obcaecati nisi consequuntur voluptatum eum adipisci accusantium
+          harum, rerum possimus ducimus accusamus alias minus! Voluptatum, incidunt.
+        </p>
+
+        <router-link
+          to="/signup"
+          class="border border-orange-500 px-2 py-3 text-md font-extralight text-orange-500 transition-colors duration-300 hover:bg-orange-500 hover:text-white"
+        >
+          Sign Up
+        </router-link>
+      </div>
+      <div class="flex items-center justify-between h-1/4">
+        <div>
+          <p class="font-bold text-lg mb-5">Location</p>
+          <p class="font-extralight text-sm">123 Demo Street</p>
+          <p class="font-extralight text-sm">New York, NY 12345</p>
+        </div>
+        <div>
+          <p class="font-bold text-lg mb-5">Contact</p>
+          <p class="font-extralight text-sm">example@email.com</p>
+          <p class="font-extralight text-sm">(555) 555-5555</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
