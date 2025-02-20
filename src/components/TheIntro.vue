@@ -4,11 +4,13 @@
   <section id="theIntro" class="flex flex-col lg:flex-row gap-10 justify-around bg-orange-200">
     <!-- Left Section -->
     <div class="w-full lg:w-2/3">
-
-
-      <img src="@/assets/intro.avif" alt="Intro Image"
-        class="w-full h-[300px] sm:h-[600px] object-cover rounded shadow-md" loading="eager" fetchpriority="high" />
-
+      <img
+        src="@/assets/intro.avif"
+        alt="Intro Image"
+        class="w-full h-[300px] sm:h-[600px] object-cover rounded shadow-md"
+        loading="eager"
+        fetchpriority="high"
+      />
     </div>
     <!-- Right Section -->
     <div class="lg:w-1/3 w-full">
@@ -25,8 +27,12 @@
           their pronunciation and confidence.
         </p>
 
-        <a href="https://forms.gle/YmcTPReoSsV4QQrs9" target="_blank" rel="noopener noreferrer"
-          class="border rounded border-orange-500 px-10 py-3 text-2xl text-orange-500 transition-colors duration-300 hover:bg-orange-500 hover:text-white">
+        <a
+          href="https://forms.gle/YmcTPReoSsV4QQrs9"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="border rounded border-orange-500 px-10 py-3 text-2xl text-orange-500 transition-colors duration-300 hover:bg-orange-500 hover:text-white"
+        >
           Register Here
         </a>
       </div>
@@ -37,10 +43,15 @@
         </div>
         <div class="pr-10">
           <p class="font-bold text-lg mb-5">Contact</p>
-          <a href="mailto:estradamiguelmaria@gmail.com"
-            class="font-extralight text-sm hover:text-blue-500">estradamiguelmaria@gmail.com</a>
+          <a
+            href="mailto:estradamiguelmaria@gmail.com"
+            class="font-extralight text-sm hover:text-blue-500"
+            >estradamiguelmaria@gmail.com</a
+          >
 
-          <a href="tel:+16122345053" class="font-extralight text-sm block hover:text-blue-500">(612) 234-5053</a>
+          <a href="tel:+16122345053" class="font-extralight text-sm block hover:text-blue-500"
+            >(612) 234-5053</a
+          >
         </div>
       </div>
     </div>

@@ -2,8 +2,13 @@
 
 <template>
   <div class="flex justify-center">
-    <img src="@/assets/mexican_banner.png" alt="mexican banner" class="fixed w-full bottom-0 z-[-1] rotate-180"
-      loading="eager" fetchpriority="high" />
+    <img
+      src="@/assets/mexican_banner.png"
+      alt="mexican banner"
+      class="fixed w-full bottom-0 z-[-1] rotate-180"
+      loading="eager"
+      fetchpriority="high"
+    />
     <div class="w-full lg:w-1/2 min-h-[400px] bg-orange-300 text-center p-10 rounded shadow-lg">
       <p class="text-5xl font-bold mb-6">FAQ</p>
 
