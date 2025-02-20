@@ -17,7 +17,7 @@ import TheHeader from './components/TheHeader.vue'
 
   <!-- <img src="./assets/banner.png" alt="mexican banner" class="absolute w-full z-[-1]"> -->
 
-  <div class="space-y-5 md:px-10 lg:px-20 pb-30">
+  <div class="space-y-5 mx-5 md:px-10 lg:px-20 pb-30">
     <TheHeader />
     <RouterView />
   </div>

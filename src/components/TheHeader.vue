@@ -7,7 +7,7 @@ import IconTwitter from './icons/IconTwitter.vue'
 <template>
   <header class="flex justify-between items-center py-5">
     <div>
-      <p class="m-0 text-3xl font-medium">Maria's Spanish Lessons</p>
+      <router-link to="/" class="m-0 text-3xl font-medium">Maria's Spanish Lessons</router-link>
     </div>
 
     <div class="flex items-center justify-between">
