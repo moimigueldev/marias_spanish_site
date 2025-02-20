@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maria's Spanish Lessons</title>
-  </head>
-  <!-- <body class="mx-5"  style="background-color: #fdf0e6"> -->
-  <body class="bg-orange-200"  >
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maria's Spanish Lessons</title>
+  <!-- Preload critical images -->
+  <link rel="preload" as="image" href="/src/assets/profile_image.jpeg">
+  <link rel="preload" as="image" href="/src/assets/mexican_banner.png">
+  <link rel="preload" as="image" href="/src/assets/intro.avif">
+  <!-- DNS prefetching for assets -->
+  <link rel="dns-prefetch" href="/src/assets/">
+</head>
+<!-- <body class="mx-5"  style="background-color: #fdf0e6"> -->
+
+<body class="bg-orange-200">
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>
