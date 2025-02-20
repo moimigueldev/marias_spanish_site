@@ -1,7 +1,11 @@
 <script setup>
-console.log('Hello World')
+import TheIntro from '../components/TheIntro.vue'
+import InfoCards from '../components/InfoCards.vue'
 </script>
 
 <template>
-  <main></main>
+  <div class="space-y-10">
+    <TheIntro />
+    <InfoCards />
+  </div>
 </template>

@@ -1,8 +1,6 @@
 <script setup>
 import { RouterView } from 'vue-router'
 import TheHeader from './components/TheHeader.vue'
-import TheIntro from './components/TheIntro.vue'
-import InfoCards from './components/InfoCards.vue'
 </script>
 
 <template>
@@ -17,11 +15,10 @@ import InfoCards from './components/InfoCards.vue'
   <!--   </div> -->
   <!-- </header> -->
 
-  <div class="space-y-10 md:px-10 lg:px-20 pb-30">
-    <TheHeader />
-    <TheIntro />
-    <InfoCards />
+  <!-- <img src="./assets/banner.png" alt="mexican banner" class="absolute w-full z-[-1]"> -->
 
+  <div class="space-y-5 md:px-10 lg:px-20 pb-30">
+    <TheHeader />
     <RouterView />
   </div>
 </template>

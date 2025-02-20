@@ -1,20 +1,17 @@
 <script setup>
-import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-  <section id="theIntro" class="flex flex-col lg:flex-row gap-10 justify-around">
+  <section id="theIntro" class="flex flex-col lg:flex-row gap-10 justify-around bg-orange-200">
     <!-- Left Section -->
-    <div class="w-full md:w-2/3">
+    <div class="w-full lg:w-2/3">
       <!-- <img -->
       <!--   src="https://images.unsplash.com/photo-1498603536246-15572faa67a6?q=80&w=3500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" -->
       <!--   alt="Intro Image" class="w-full h-[600px] object-cover" /> -->
 
       <img
         src="https://images.unsplash.com/photo-1636573533532-fdf7c44af2d5?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        alt="Intro Image"
-        class="w-full h-[300px] sm:h-[600px] object-cover rounded shadow-md"
-      />
+        alt="Intro Image" class="w-full h-[300px] sm:h-[600px] object-cover rounded shadow-md" />
       <!-- <img src="../assets/profile_image.jpeg" alt="Intro Image" -->
       <!--   class="w-full h-[300px] sm:h-[600px] object-cover rounded shadow-md" /> -->
       <!-- <img -->
@@ -41,12 +38,8 @@ import { RouterLink } from 'vue-router'
           their pronunciation and confidence.
         </p>
 
-        <a
-          href="https://forms.gle/YmcTPReoSsV4QQrs9"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="border rounded border-orange-500 px-10 py-3 text-2xl text-orange-500 transition-colors duration-300 hover:bg-orange-500 hover:text-white"
-        >
+        <a href="https://forms.gle/YmcTPReoSsV4QQrs9" target="_blank" rel="noopener noreferrer"
+          class="border rounded border-orange-500 px-10 py-3 text-2xl text-orange-500 transition-colors duration-300 hover:bg-orange-500 hover:text-white">
           Register Here
         </a>
       </div>
@@ -57,15 +50,10 @@ import { RouterLink } from 'vue-router'
         </div>
         <div class="pr-10">
           <p class="font-bold text-lg mb-5">Contact</p>
-          <a
-            href="mailto:estradamiguelmaria@gmail.com"
-            class="font-extralight text-sm hover:text-blue-500"
-            >estradamiguelmaria@gmail.com</a
-          >
+          <a href="mailto:estradamiguelmaria@gmail.com"
+            class="font-extralight text-sm hover:text-blue-500">estradamiguelmaria@gmail.com</a>
 
-          <a href="tel:+16122345053" class="font-extralight text-sm block hover:text-blue-500"
-            >(612) 234-5053</a
-          >
+          <a href="tel:+16122345053" class="font-extralight text-sm block hover:text-blue-500">(612) 234-5053</a>
         </div>
       </div>
     </div>
