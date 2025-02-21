@@ -28,6 +28,10 @@ const router = createRouter({
       name: 'faq',
       component: FAQView,
     },
+    {
+      path: '/:pathMatch(.*)*',
+      redirect: '/',
+    }
   ],
 })
 
