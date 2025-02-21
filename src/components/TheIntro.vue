@@ -14,17 +14,30 @@
     </div>
     <!-- Right Section -->
     <div class="lg:w-1/3 w-full">
-      <div class="space-y-10 md:space-y-20 h-3/4">
+      <div class="space-y-10 md:space-y-10 h-3/4">
         <!-- <h1 class="text-4xl font-bold">Spanish Tutoring</h1> -->
         <p class="font-light">
-          <span class="font-bold">¡Hola!</span> My name is Maria, and I'm so excited that you're
-          interested in learning Spanish! I am a graduate of the University of Minnesota with a
-          passion for teaching others the beautiful Spanish language.
+          <span class="font-bold">¡Hola!</span> I’m Maria, and it’s so exciting that you're
+          interested in learning Spanish! I would love to help learners develop strong language
+          skills that will benefit them for a lifetime. As one of the most widely spoken languages
+          in the world, Spanish provides a powerful way to connect with diverse cultures and
+          communities. <br />
+          <br />
+          Each lesson is customized to fit your needs, focusing on speaking, reading, and writing.
+          My goal is to encourage students to speak as much Spanish as possible, helping them build
+          confidence and improve their pronunciation.
           <br />
           <br />
-          Lessons will be tailored to your needs, with a focus on speaking, reading, and writing in
-          Spanish. One of my goals is to have students speak as much Spanish as possible to improve
-          their pronunciation and confidence.
+          No matter where you’re starting from, I’ll help you succeed in this beautiful language!
+          For more information about my lessons, fill out the interest form by clicking the
+          <a
+            class="font-bold transition-transform transform hover:scale-110 duration-300"
+            href="https://forms.gle/YmcTPReoSsV4QQrs9"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Register Here</a
+          >
+          button below—let’s learn and grow together!
         </p>
 
         <a
@@ -36,24 +49,19 @@
           Register Here
         </a>
       </div>
-      <div class="flex items-center justify-between h-1/4 mt-10 md:mt-0">
-        <div>
-          <p class="font-bold text-lg mb-5">Location</p>
-          <p class="font-extralight text-sm">Virtual / Online</p>
-        </div>
-        <div class="pr-10">
-          <p class="font-bold text-lg mb-5">Contact</p>
-          <a
-            href="mailto:estradamiguelmaria@gmail.com"
-            class="font-extralight text-sm hover:text-blue-500"
-            >estradamiguelmaria@gmail.com</a
-          >
-
-          <a href="tel:+16122345053" class="font-extralight text-sm block hover:text-blue-500"
-            >(612) 234-5053</a
-          >
-        </div>
-      </div>
+      <!-- <div class="flex items-center justify-between h-1/4 mt-10 md:mt-0"> -->
+      <!--   <div> -->
+      <!--     <p class="font-bold text-lg mb-5">Location</p> -->
+      <!--     <p class="font-extralight text-sm">Virtual / Online</p> -->
+      <!--   </div> -->
+      <!--   <div class="pr-10"> -->
+      <!--     <p class="font-bold text-lg mb-5">Contact</p> -->
+      <!--     <a href="mailto:estradamiguelmaria@gmail.com" -->
+      <!--       class="font-extralight text-sm hover:text-blue-500">estradamiguelmaria@gmail.com</a> -->
+      <!---->
+      <!--     <a href="tel:+16122345053" class="font-extralight text-sm block hover:text-blue-500">(612) 234-5053</a> -->
+      <!--   </div> -->
+      <!-- </div> -->
     </div>
   </section>
 </template>

@@ -1,15 +1,25 @@
 <template>
   <div class="flex flex-col lg:flex-row gap-10 mt-10">
-    <img src="@/assets/flag.webp" alt="mexican banner" class="fixed w-full h-full object-cover top-0 left-0 z-[-1]"
-      loading="eager" fetchpriority="high" />
+    <img
+      src="@/assets/flag.webp"
+      alt="mexican banner"
+      class="fixed w-full h-full object-cover top-0 left-0 z-[-1]"
+      loading="eager"
+      fetchpriority="high"
+    />
 
     <!-- 30-Minute Sessions Card -->
     <div class="w-full lg:w-2/4 bg-red-500 rounded-xl shadow-lg overflow-hidden">
       <!-- <img src="@/assets/bird.png" alt="Spanish Lessons" class="w-full h-40 object-cover"> -->
       <!-- 30-Minute Sessions Card -->
       <div class="bg-red-500 rounded-xl mx-auto overflow-hidden p-6">
-        <img src="@/assets/bird.png" alt="Spanish Lessons" class="w-32 h-32 rounded-full mx-auto object-cover"
-          loading="eager" fetchpriority="high" />
+        <img
+          src="@/assets/bird.png"
+          alt="Spanish Lessons"
+          class="w-32 h-32 rounded-full mx-auto object-cover"
+          loading="eager"
+          fetchpriority="high"
+        />
         <p class="text-2xl font-bold text-center">30-Minute Sessions</p>
       </div>
 
@@ -50,8 +60,13 @@
     <div class="w-full lg:w-2/4 bg-teal-500 rounded-xl shadow-lg overflow-hidden">
       <!-- <img src="@/assets/mask.png" alt="Spanish Lessons" class="w-full h-40 object-cover"> -->
       <div class="bg-teal-500 rounded-xl mx-auto overflow-hidden p-6">
-        <img src="@/assets/mask.png" alt="Spanish Lessons" class="w-32 h-32 rounded-full mx-auto object-cover"
-          loading="eager" fetchpriority="high" />
+        <img
+          src="@/assets/mask.png"
+          alt="Spanish Lessons"
+          class="w-32 h-32 rounded-full mx-auto object-cover"
+          loading="eager"
+          fetchpriority="high"
+        />
         <p class="text-2xl font-bold text-center">1-Hour Sessions</p>
       </div>
 
