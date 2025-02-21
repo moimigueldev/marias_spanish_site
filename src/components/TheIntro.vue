@@ -4,8 +4,13 @@
   <section id="theIntro" class="flex flex-col lg:flex-row gap-10 justify-around bg-orange-200">
     <!-- Left Section -->
     <div class="w-full lg:w-2/3">
-      <img src="@/assets/intro.webp" alt="Intro Image"
-        class="w-full h-[300px] sm:h-[600px] object-cover rounded shadow-md" loading="eager" fetchpriority="high" />
+      <img
+        src="@/assets/intro.webp"
+        alt="Intro Image"
+        class="w-full h-[300px] sm:h-[600px] object-cover rounded shadow-md"
+        loading="eager"
+        fetchpriority="high"
+      />
     </div>
     <!-- Right Section -->
     <div class="lg:w-1/3 w-full">
@@ -25,13 +30,22 @@
           <br />
           No matter where you’re starting from, I’ll help you succeed in this beautiful language!
           For more information about my lessons, fill out the interest form by clicking the
-          <a class="font-bold transition-transform transform hover:scale-110 duration-300"
-            href="https://forms.gle/YmcTPReoSsV4QQrs9" target="_blank" rel="noopener noreferrer">Register Here</a>
+          <a
+            class="font-bold transition-transform transform hover:scale-110 duration-300"
+            href="https://forms.gle/YmcTPReoSsV4QQrs9"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Register Here</a
+          >
           button below—let’s learn and grow together!
         </p>
 
-        <a href="https://forms.gle/YmcTPReoSsV4QQrs9" target="_blank" rel="noopener noreferrer"
-          class="border rounded border-orange-500 px-10 py-3 text-2xl text-orange-500 transition-colors duration-300 hover:bg-orange-500 hover:text-white">
+        <a
+          href="https://forms.gle/YmcTPReoSsV4QQrs9"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="border rounded border-orange-500 px-10 py-3 text-2xl text-orange-500 transition-colors duration-300 hover:bg-orange-500 hover:text-white"
+        >
           Register Here
         </a>
       </div>
