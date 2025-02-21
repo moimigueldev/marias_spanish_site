@@ -5,7 +5,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  // base: '/marias_spanish_site/', // Add this line
+  base: '/marias_spanish_site/', // Add this line
   plugins: [
     vue(),
     vueDevTools(),
