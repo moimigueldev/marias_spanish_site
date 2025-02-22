@@ -13,7 +13,6 @@ const router = createRouter({
       component: HomeView,
     },
     {
-
       path: '/about',
       name: 'about',
       component: AboutView,
@@ -31,7 +30,7 @@ const router = createRouter({
     {
       path: '/:pathMatch(.*)*',
       redirect: '/',
-    }
+    },
   ],
 })
 

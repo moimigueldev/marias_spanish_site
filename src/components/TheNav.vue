@@ -2,6 +2,10 @@
 import { ref } from 'vue'
 
 const isOpen = ref(false)
+
+function toggleIsNavOpen() {
+  isOpen.value = !isOpen.value
+}
 </script>
 
 <template>
@@ -15,7 +19,7 @@ const isOpen = ref(false)
 
       <!-- Mobile Menu Button -->
       <button
-        @click="isOpen = !isOpen"
+        @click="toggleIsNavOpen"
         class="inline-flex items-center cursor-pointer p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-orange-300 focus:outline-none focus:ring-2 focus:ring-orange-300"
       >
         <span class="sr-only">Open main menu</span>
@@ -43,12 +47,13 @@ const isOpen = ref(false)
         id="navbar-default"
       >
         <ul
-          class="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg bg-orange-300 md:bg-orange-200 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0"
+          class="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg bg-orange-400 shadow-xl md:shadow-none md:bg-orange-200 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0"
         >
           <li>
             <router-link
               to="/"
-              active-class="font-bold scale-110 text-orange-500"
+              @click="toggleIsNavOpen"
+              active-class="font-bold md:scale-110 text-white md:text-orange-400"
               class="block py-2 px-3 rounded-sm md:bg-transparent md:p-0 transition duration-300 hover:scale-110"
               >Home</router-link
             >
@@ -56,7 +61,8 @@ const isOpen = ref(false)
           <li>
             <router-link
               to="/about"
-              active-class="font-bold scale-110 text-orange-500"
+              @click="toggleIsNavOpen"
+              active-class="font-bold md:scale-110 text-white md:text-orange-400"
               class="block py-2 px-3 rounded-sm md:bg-transparent md:p-0 transition duration-300 hover:scale-110"
               >About Me</router-link
             >
@@ -65,7 +71,8 @@ const isOpen = ref(false)
           <li>
             <router-link
               to="/pricing"
-              active-class="font-bold scale-110 text-orange-500"
+              @click="toggleIsNavOpen"
+              active-class="font-bold md:scale-110 text-white md:text-orange-400"
               class="block py-2 px-3 rounded-sm md:bg-transparent md:p-0 transition duration-300 hover:scale-110"
               >Pricing</router-link
             >
@@ -73,7 +80,8 @@ const isOpen = ref(false)
           <li>
             <router-link
               to="/faq"
-              active-class="font-bold scale-110 text-orange-500"
+              @click="toggleIsNavOpen"
+              active-class="font-bold md:scale-110 text-white md:text-orange-400"
               class="block py-2 px-3 rounded-sm md:bg-transparent md:p-0 transition duration-300 hover:scale-110"
               >FAQ</router-link
             >
