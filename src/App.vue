@@ -26,7 +26,7 @@ function resetPageIsLoading() {
 </script>
 
 <template>
-  <div class="space-y-5 mx-5 md:px-10 lg:px-20 pb-30">
+  <div class="mx-5 space-y-5 pb-30 md:px-10 lg:px-20">
     <TheNav />
     <TheLoader v-show="pageIsLoading" />
     <RouterView v-show="!pageIsLoading" />

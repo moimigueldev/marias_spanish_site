@@ -5,14 +5,14 @@
     <img
       src="@/assets/mexican_banner_1.webp"
       alt="mexican banner"
-      class="fixed w-full bottom-0 z-[-1] rotate-180"
+      class="fixed bottom-0 z-[-1] w-full rotate-180"
       loading="eager"
       fetchpriority="high"
     />
-    <div class="w-full lg:w-1/2 min-h-[400px] bg-orange-300 text-center p-10 rounded shadow-lg">
-      <p class="text-5xl font-bold mb-6">FAQ</p>
+    <div class="min-h-[400px] w-full rounded bg-orange-300 p-10 text-center shadow-lg lg:w-1/2">
+      <p class="mb-6 text-5xl font-bold">FAQ</p>
 
-      <div class="text-left space-y-4">
+      <div class="space-y-4 text-left">
         <div>
           <p class="text-xl font-semibold">1. How long are the Spanish lessons?</p>
           <p class="text-gray-800">Each lesson lasts approximately 60 minutes.</p>

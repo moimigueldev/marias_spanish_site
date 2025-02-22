@@ -1,20 +1,20 @@
 <script setup></script>
 
 <template>
-  <section id="theIntro" class="flex flex-col lg:flex-row gap-10 justify-around bg-orange-200">
+  <section id="theIntro" class="flex flex-col justify-around gap-10 bg-orange-200 lg:flex-row">
     <!-- Left Section -->
     <div class="w-full lg:w-2/3">
       <img
         src="@/assets/intro.webp"
         alt="Intro Image"
-        class="w-full h-[300px] sm:h-[600px] object-cover rounded shadow-md"
+        class="h-[300px] w-full rounded object-cover shadow-md sm:h-[600px]"
         loading="eager"
         fetchpriority="high"
       />
     </div>
     <!-- Right Section -->
-    <div class="lg:w-1/3 w-full">
-      <div class="space-y-10 md:space-y-10 h-3/4">
+    <div class="w-full lg:w-1/3">
+      <div class="h-3/4 space-y-10 md:space-y-10">
         <!-- <h1 class="text-4xl font-bold">Spanish Tutoring</h1> -->
         <p class="font-light">
           <span class="font-bold">¡Hola!</span> I’m Maria, and it’s so exciting that you're
@@ -31,7 +31,7 @@
           No matter where you’re starting from, I’ll help you succeed in this beautiful language!
           For more information about my lessons, fill out the interest form by clicking the
           <a
-            class="font-bold transition-transform transform hover:scale-110 duration-300"
+            class="transform font-bold transition-transform duration-300 hover:scale-110"
             href="https://forms.gle/YmcTPReoSsV4QQrs9"
             target="_blank"
             rel="noopener noreferrer"
@@ -44,7 +44,7 @@
           href="https://forms.gle/YmcTPReoSsV4QQrs9"
           target="_blank"
           rel="noopener noreferrer"
-          class="border rounded border-orange-500 px-10 py-3 text-2xl text-orange-500 transition-colors duration-300 hover:bg-orange-500 hover:text-white"
+          class="rounded border border-orange-500 px-10 py-3 text-2xl text-orange-500 transition-colors duration-300 hover:bg-orange-500 hover:text-white"
         >
           Register Here
         </a>

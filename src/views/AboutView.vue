@@ -1,14 +1,14 @@
 <script setup></script>
 
 <template>
-  <div class="flex flex-col lg:flex-row h-200 gap-5">
+  <div class="flex h-200 flex-col gap-5 lg:flex-row">
     <div
-      class="left w-full lg:w-1/2 lg:p-20 bg-orange-300 text-center rounded-lg shadow-lg relative"
+      class="left relative w-full rounded-lg bg-orange-300 text-center shadow-lg lg:w-1/2 lg:p-20"
     >
       <img
         src="@/assets/mexican_banner_1.webp"
         alt="mexican banner"
-        class="absolute left-0 top-0 right-0 w-full h-[400px] hidden lg:block"
+        class="absolute top-0 right-0 left-0 hidden h-[400px] w-full lg:block"
         loading="eager"
         fetchpriority="high"
         width="1200"
@@ -16,17 +16,17 @@
       />
       <img
         src="@/assets/profile_image.webp"
-        class="w-60 h-60 lg:w-150 lg:h-150 rounded-full object-cover shadow-lg sm:block lg:hidden mx-auto my-10"
+        class="mx-auto my-10 h-60 w-60 rounded-full object-cover shadow-lg sm:block lg:hidden lg:h-150 lg:w-150"
         alt="Profile Image"
         loading="eager"
         fetchpriority="high"
         width="240"
         height="240"
       />
-      <p class="text-2xl lg:text-5xl font-bold lg:mt-30">Maria Estrada Miguel</p>
-      <p class="font-extralight lg:mt-5 text-lg lg:text-xl font-semibold">About Me</p>
+      <p class="text-2xl font-bold lg:mt-30 lg:text-5xl">Maria Estrada Miguel</p>
+      <p class="text-lg font-extralight font-semibold lg:mt-5 lg:text-xl">About Me</p>
 
-      <p class="font-light p-5 text-sm lg:text-lg">
+      <p class="p-5 text-sm font-light lg:text-lg">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi illum labore soluta
         aperiam vero inventore laborum, culpa quisquam ratione placeat, ipsa nam earum ea
         repellendus aspernatur cupiditate, pariatur dolor maiores? Lorem ipsum dolor sit amet
@@ -35,10 +35,10 @@
         nesciunt earum libero quaerat?
       </p>
     </div>
-    <div class="rigt w-full lg:w-1/2 rounded-lg flex justify-center items-center">
+    <div class="rigt flex w-full items-center justify-center rounded-lg lg:w-1/2">
       <img
         src="@/assets/profile_image.webp"
-        class="w-60 h-60 lg:w-150 lg:h-150 rounded-full object-cover shadow-lg hidden lg:block"
+        class="hidden h-60 w-60 rounded-full object-cover shadow-lg lg:block lg:h-150 lg:w-150"
         alt="Profile Image"
         loading="eager"
         fetchpriority="high"
