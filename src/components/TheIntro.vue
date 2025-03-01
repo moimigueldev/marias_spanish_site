@@ -18,10 +18,10 @@
         <!-- <h1 class="text-4xl font-bold">Spanish Tutoring</h1> -->
         <p class="font-light">
           <span class="font-bold">¡Hola!</span> I’m Maria, and it’s so exciting that you're
-          interested in learning Spanish! I would love to help learners develop strong language
-          skills that will benefit them for a lifetime. As one of the most widely spoken languages
-          in the world, Spanish provides a powerful way to connect with diverse cultures and
-          communities. <br />
+          interested in learning Spanish! As one of the most widely spoken languages in the world,
+          Spanish provides a powerful way to connect with diverse cultures and communities. I would
+          love to help you develop strong language skills that will benefit you for a lifetime.
+          <br />
           <br />
           Each lesson is customized to fit your needs, focusing on speaking, reading, and writing.
           My goal is to encourage students to speak as much Spanish as possible, helping them build
