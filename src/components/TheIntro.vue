@@ -13,8 +13,8 @@
       />
     </div>
     <!-- Right Section -->
-    <div class="w-full text-center lg:w-1/3">
-      <div class="h-3/4 space-y-10 md:space-y-10">
+    <div class="w-full lg:w-1/3">
+      <div class="mt-0 h-3/4 space-y-10 md:space-y-10 lg:mt-15">
         <!-- <h1 class="text-4xl font-bold">Spanish Tutoring</h1> -->
         <p class="font-light">
           <span class="font-bold">¡Hola!</span> I’m Maria, and it’s so exciting that you're
@@ -46,14 +46,16 @@
           button below—let’s learn and grow together!
         </p>
 
-        <a
-          href="https://forms.gle/YmcTPReoSsV4QQrs9"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="rounded border border-orange-500 px-10 py-3 text-2xl text-orange-500 transition-colors duration-300 hover:bg-orange-500 hover:text-white"
-        >
-          Register Here
-        </a>
+        <p class="text-center">
+          <a
+            href="https://forms.gle/YmcTPReoSsV4QQrs9"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="rounded border border-orange-500 px-10 py-3 text-2xl text-orange-500 transition-colors duration-300 hover:bg-orange-500 hover:text-white"
+          >
+            Register Here
+          </a>
+        </p>
       </div>
       <!-- <div class="flex items-center justify-between h-1/4 mt-10 md:mt-0"> -->
       <!--   <div> -->
