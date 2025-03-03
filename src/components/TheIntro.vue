@@ -13,7 +13,7 @@
       />
     </div>
     <!-- Right Section -->
-    <div class="w-full lg:w-1/3">
+    <div class="w-full text-center lg:w-1/3">
       <div class="h-3/4 space-y-10 md:space-y-10">
         <!-- <h1 class="text-4xl font-bold">Spanish Tutoring</h1> -->
         <p class="font-light">
@@ -30,13 +30,19 @@
           <br />
           No matter where you’re starting from, I’ll help you succeed in this beautiful language!
           For more information about my lessons, fill out the interest form by clicking the
-          <a
-            class="transform font-bold transition-transform duration-300 hover:scale-110"
-            href="https://forms.gle/YmcTPReoSsV4QQrs9"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Register Here</a
+          <span
+            class="inline-block transform transition-transform duration-300 hover:scale-110 hover:px-1 hover:text-orange-500"
           >
+            <a
+              class="font-bold"
+              href="https://forms.gle/YmcTPReoSsV4QQrs9"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Register Here
+            </a>
+          </span>
+
           button below—let’s learn and grow together!
         </p>
 

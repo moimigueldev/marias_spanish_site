@@ -2,11 +2,21 @@
 
 <template>
   <div class="flex">
+    <img
+      src="../assets/mexico.png"
+      alt="Banner"
+      class="fixed inset-0 z-[-1] hidden h-full w-full object-cover lg:block"
+      loading="eager"
+      fetchpriority="high"
+    />
     <div
       class="relative mx-auto w-full rounded-lg bg-orange-300 p-10 text-center shadow-lg lg:w-2/3 lg:p-10"
     >
       <!-- <img src="@/assets/mexican_banner_1.webp" alt="mexican banner" -->
       <!--   class="absolute top-0 right-0 left-0  h-[200px] lg:h-[400px] " loading="eager" fetchpriority="high" /> -->
+      <!-- <img src="@/assets/mexican_banner_1.webp" alt="mexican banner" -->
+      <!--   class="absolute top-0 right-0   h-[200px] lg:h-[400px] " loading="eager" fetchpriority="high" /> -->
+
       <img
         src="@/assets/profile_image.webp"
         class="mx-auto size-60 rounded-full object-cover shadow-xl lg:size-90"
@@ -17,11 +27,11 @@
       <p class="my-5 text-2xl font-bold lg:text-5xl">Maria Estrada Miguel</p>
 
       <p class="text-left text-sm font-light lg:text-lg">
-        Hello! I’m Maria Estrada Miguel. Growing up, I spoke Spanish at home, which gave me a deep
-        appreciation for the beauty and richness of the language. With most of my family living in
-        Mexico City, I feel incredibly blessed to travel there often and stay connected to my roots.
-        Although I studied finance at the University of Minnesota, my passion for teaching Spanish
-        has always been a big part of who I am.
+        Hello! I’m Maria Estrada Miguel. Growing up, I spoke Spanish at home, which enabled me to
+        become fluent. I learned English at school. With most of my family living in Mexico City, I
+        feel incredibly blessed to travel there often and stay connected to my roots. Although I
+        studied finance at the University of Minnesota, my passion for teaching Spanish has always
+        been a big part of who I am.
 
         <br />
         <br />

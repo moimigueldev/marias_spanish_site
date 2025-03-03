@@ -12,7 +12,7 @@
       </h5>
       <p class="mb-3 flex-grow font-normal text-gray-700">
         Growing up, I spoke Spanish at home, which has given me a unique perspective on the beauty
-        and richness of this language <br />
+        and richness of this language. <br />
         <br />
         <br />
         <span class="font-bold">Click Here</span> to learn more.
@@ -58,7 +58,7 @@
         Contact Me <span class="ml-2">📲</span>
       </h5>
       <p class="mb-3 flex-grow font-normal text-gray-700">
-        I’d love to hear from you! Feel free to call, text, or email me with any of your questions
+        I’d love to hear from you! Feel free to call, text, or email me with any of your questions.
       </p>
       <div class="w-full">
         <p class="font-bold text-gray-900">Email:</p>
